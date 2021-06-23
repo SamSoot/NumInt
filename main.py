@@ -7,6 +7,8 @@ from PIL import Image
 import pandas as pd
 from sympy.parsing.latex import parse_latex
 from pandas import Series
+
+
 def left_int(y, x1, x2, delta_x):
     x = symbols('x')
     tracker = x1
